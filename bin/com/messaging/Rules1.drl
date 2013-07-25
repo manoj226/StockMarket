@@ -1,0 +1,21 @@
+//created on: Jul 23, 2013
+package com.messaging
+
+//list any import classes here.
+
+
+
+//declare any global variables here
+
+
+import com.mespojo;
+
+rule "A stand alone rule"
+
+    rule "Hello World"
+when
+message:Message (type=='Hello')
+then
+System.out.println("Hello World, Drools!");
+End
+

@@ -1,0 +1,12 @@
+
+package com
+import com.mespojo;
+
+
+    rule "Hello World"
+when
+message:mespojo(type == "Hello")
+then
+System.out.println("Hello World, Drools!");
+end
+
